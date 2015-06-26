@@ -1,0 +1,51 @@
+---
+  name: WW Extract
+  batch: 1
+---
+  name: WW Pale Ale
+  batch: 2
+---
+  name: WW IPA
+  batch: 3
+  preboilVolume: 15.2
+  preboilOG: 1.062
+  fermentables:
+    - { slug: pilsner, power: 300, weight: 3300 }
+    - { slug: cara-pale, power: 285, weight: 330 }
+    - { slug: oat-meal, power: 240, weight: 165 }
+---
+  name: 60 min IPA
+  batch: 4
+---
+  name: Amarillo Single Hop
+  batch: 5
+---
+  name: Saison
+  batch: 6
+  preboilVolume: 15.5
+  preboilOG: 1.051
+  OG: 1.060
+  FG: 1.010
+  # volume finished beer?
+  fermentables:
+    - { slug: pilsner, power: 300, weight: 2640 }
+    - { slug: muchner, power: 290, weight: 385 }
+    - { slug: cara-pale, power: 285, weight: 165 }
+---
+  name: Hallon vete
+  batch: 7
+---
+  name: DIPA
+  batch: 8
+---
+  name: Saison number 2
+  batch: 9
+  preboilVolume: 20
+  # double check this value...
+  preboilOG: 1.053
+  fermentables:
+    - { slug: pilsner, power: 300, weight: 1510 }
+    - { slug: muchner, power: 290, weight: 520 }
+    - { slug: cara-pale, power: 285, weight: 220 }
+    - { slug: pale-ale, power: 300, weight: 2030 }
+
