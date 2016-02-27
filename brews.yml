@@ -48,4 +48,15 @@
     - { slug: muchner, power: 290, weight: 520 }
     - { slug: cara-pale, power: 285, weight: 220 }
     - { slug: pale-ale, power: 300, weight: 2030 }
-
+---
+  name: Lindh Pale Ale
+  batch: 10
+---
+  name: Saison number 3
+  batch: 11
+---  
+  name: Double Chocolate Oat Meal Stout
+  batch: 12
+---
+  name: Brewdog - Hunter
+  batch: 13
